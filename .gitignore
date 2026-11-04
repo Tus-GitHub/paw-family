@@ -1,0 +1,12 @@
+bin/
+obj/
+build/
+dist/
+data/
+Assets/
+test-fixtures/
+*-result.txt
+projects-report.json
+navigation-test.txt
+*.user
+*.pdb

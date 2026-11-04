@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <AssemblyName>PawFamily</AssemblyName><Version>0.3.0</Version>
+    <Product>Paw Family</Product><Description>A local desktop companion for your Codex projects.</Description>
+    <ApplicationIcon Condition="Exists('Brand/paw-family.ico')">Brand/paw-family.ico</ApplicationIcon>
+    <DebugType>none</DebugType>
+    <RuntimeFrameworkVersion>10.0.14</RuntimeFrameworkVersion>
+  </PropertyGroup>
+  <!-- User-imported character art is never included in the public build. -->
+</Project>
